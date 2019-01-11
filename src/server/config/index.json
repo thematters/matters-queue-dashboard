@@ -1,11 +1,22 @@
 {
-  "__example_queues": [
+  "queues": [
     {
-      "name": "my_queue",
-      "port": 6381,
+      "name": "schedule_queue",
+      "port": 6379,
       "host": "127.0.0.1",
-      "hostId": "AWS Server 2"
+      "hostId": "matters-local"
+    },
+    {
+      "name": "notification_queue",
+      "port": 6379,
+      "host": "127.0.0.1",
+      "hostId": "matters-local"
+    },
+    {
+      "name": "publication_queue",
+      "port": 6379,
+      "host": "127.0.0.1",
+      "hostId": "matters-local"
     }
-  ],
-  "queues": []
+  ]
 }
