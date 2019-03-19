@@ -3,20 +3,56 @@
     {
       "name": "schedule",
       "port": 6379,
-      "host": "127.0.0.1",
+      "host": "localhost",
       "hostId": "matters-local"
     },
     {
       "name": "notification",
       "port": 6379,
-      "host": "127.0.0.1",
+      "host": "localhost",
       "hostId": "matters-local"
     },
     {
       "name": "publication",
       "port": 6379,
-      "host": "127.0.0.1",
+      "host": "localhost",
       "hostId": "matters-local"
+    },
+    {
+      "name": "schedule",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "notification",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "publication",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "schedule",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "notification",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "publication",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
     }
   ]
 }
