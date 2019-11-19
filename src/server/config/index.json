@@ -19,6 +19,12 @@
       "hostId": "matters-local"
     },
     {
+      "name": "likecoin",
+      "port": 6379,
+      "host": "localhost",
+      "hostId": "matters-local"
+    },
+    {
       "name": "schedule",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
@@ -37,6 +43,12 @@
       "hostId": "matters-stage"
     },
     {
+      "name": "likecoin",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
       "name": "schedule",
       "port": 6379,
       "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
@@ -50,6 +62,12 @@
     },
     {
       "name": "publication",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "likecoin",
       "port": 6379,
       "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-prod"
