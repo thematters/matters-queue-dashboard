@@ -1,7 +1,6 @@
 const _ = require('lodash');
 const Bull = require('bull');
 const Bee = require('bee-queue');
-const path = require('path');
 
 class Queues {
   constructor(config) {
@@ -74,6 +73,23 @@ class Queues {
     this._queues[queueHost][queueName] = queue;
 
     return queue;
+  }
+
+  /**
+   * Creates and adds a job with the given `data` to the given `queue`.
+   *
+   * @param {Object} queue A bee or bull queue class
+   * @param {Object} data The data to be used within the job
+   */
+  async set(queue, data) {
+    if (queue.IS_BEE) {
+      return queue.createJob(data).save();
+    } else {
+      return queue.add(data, {
+        removeOnComplete: false,
+        removeOnFail: false
+      });
+    }
   }
 }
 

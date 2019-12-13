@@ -1,6 +1,20 @@
 ## Release History
 
-* 2.5.2 Support custom job IDs in arena (#126) - thanks @gcox
+* 2.6.4 Fix circular dependency issue when viewing failed jobs (#183) - thanks @ghmeier!
+
+* 2.6.3 Pull in handlebars security advisory patch (#168) - thanks @pklingem!
+
+* 2.6.2 Fix "add job" vendor/API path when basePath is set (#157) - thanks, @jacobpgn
+
+* 2.6.1 Hot patch: commit /vendor assets to fix new UI.
+
+* 2.6.0 Add the ability to add jobs via Arena (#55/#153) - thanks, @krazyjakee!
+
+* 2.5.4 Upgrade handlerbars-helpers to fix flagged vulnerability (#151) - thanks, @eeVoskos!
+
+* 2.5.3 Fix `navbar` reference (#146) - thanks @anurag-rai!
+
+* 2.5.2 Support custom job IDs in arena (#126) - thanks @gcox!
 
 * 2.5.1 Upgrade nodemon to avoid the vulnerable event-stream (#136)
 
