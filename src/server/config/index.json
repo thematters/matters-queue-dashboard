@@ -1,7 +1,6 @@
 {
-  "queues": [
-    {
-      "name": "schedule",
+  "queues": [{
+      "name": "refreshViews",
       "port": 6379,
       "host": "localhost",
       "hostId": "matters-local"
@@ -30,9 +29,22 @@
       "host": "localhost",
       "hostId": "matters-local"
     },
+    {
+      "name": "migration",
+      "port": 6379,
+      "host": "localhost",
+      "hostId": "matters-local"
+    },
+    {
+      "name": "emails",
+      "port": 6379,
+      "host": "localhost",
+      "hostId": "matters-local"
+    },
+
 
     {
-      "name": "schedule",
+      "name": "refreshViews",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-stage"
@@ -61,10 +73,22 @@
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-stage"
     },
+    {
+      "name": "migration",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "emails",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
 
 
     {
-      "name": "schedule",
+      "name": "refreshViews",
       "port": 6379,
       "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-prod"
@@ -89,6 +113,18 @@
     },
     {
       "name": "user",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "migration",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "emails",
       "port": 6379,
       "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-prod"
