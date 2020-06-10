@@ -41,6 +41,12 @@
       "host": "localhost",
       "hostId": "matters-local"
     },
+    {
+      "name": "payment",
+      "port": 6379,
+      "host": "localhost",
+      "hostId": "matters-local"
+    },
 
 
     {
@@ -85,6 +91,12 @@
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-stage"
     },
+    {
+      "name": "payment",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
 
 
     {
@@ -125,6 +137,12 @@
     },
     {
       "name": "emails",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "payment",
       "port": 6379,
       "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-prod"
