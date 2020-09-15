@@ -65,63 +65,123 @@
       "name": "refreshViews",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "notification",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "publication",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "likecoin",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "user",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "migration",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "emails",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "payout",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "payTo",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
     {
       "name": "appreciation",
       "port": 6379,
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
-      "hostId": "matters-stage"
+      "hostId": "matters-develop"
     },
 
+    {
+      "name": "refreshViews",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "notification",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "publication",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "likecoin",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "user",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "migration",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "emails",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "payout",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "payTo",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "appreciation",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
 
     {
       "name": "refreshViews",
