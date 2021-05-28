@@ -59,7 +59,18 @@
       "host": "localhost",
       "hostId": "matters-local"
     },
-
+    {
+      "name": "revision",
+      "port": 6379,
+      "host": "localhost",
+      "hostId": "matters-local"
+    },
+    {
+      "name": "circle",
+      "port": 6379,
+      "host": "localhost",
+      "hostId": "matters-local"
+    },
 
     {
       "name": "refreshViews",
@@ -121,6 +132,18 @@
       "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-develop"
     },
+    {
+      "name": "revision",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-develop"
+    },
+    {
+      "name": "circle",
+      "port": 6379,
+      "host": "server-develop-001.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-develop"
+    },
 
     {
       "name": "refreshViews",
@@ -182,6 +205,18 @@
       "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
       "hostId": "matters-stage"
     },
+    {
+      "name": "revision",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
+    {
+      "name": "circle",
+      "port": 6379,
+      "host": "master.server-stage-redis.uc9k7i.apse1.cache.amazonaws.com",
+      "hostId": "matters-stage"
+    },
 
     {
       "name": "refreshViews",
@@ -239,6 +274,18 @@
     },
     {
       "name": "appreciation",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "revision",
+      "port": 6379,
+      "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
+      "hostId": "matters-prod"
+    },
+    {
+      "name": "circle",
       "port": 6379,
       "host": "server-prod-queue.uc9k7i.0001.apse1.cache.amazonaws.com",
       "hostId": "matters-prod"
